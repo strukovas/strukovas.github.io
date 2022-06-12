@@ -5,7 +5,7 @@
     <link>https://strukovas.gitub.io/publication/</link>
       <atom:link href="https://strukovas.gitub.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://strukovas.gitub.io/media/icon_hua741a8d3b8e24a2e8c088429f4f7d344_30882_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>Data-Driven Performance Prediction in a Geometry Game Environment</title>
-      <link>https://strukovas.gitub.io/publication/goodit_2021/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://strukovas.gitub.io/publication/goodit_2021/</guid>
+      <title>Using Online Digital Data to Infer Valuable Skills for the Modern Workforce</title>
+      <link>https://strukovas.gitub.io/publication/igi_chapter/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://strukovas.gitub.io/publication/igi_chapter/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data-Driven Performance Prediction in a Geometry Game Environment</title>
-      <link>https://strukovas.gitub.io/publication/igi_chapter/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://strukovas.gitub.io/publication/igi_chapter/</guid>
+      <link>https://strukovas.gitub.io/publication/goodit_2021/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://strukovas.gitub.io/publication/goodit_2021/</guid>
       <description></description>
     </item>
     
