@@ -5,12 +5,20 @@
     <link>https://strukovas.gitub.io/publication-type/1/</link>
       <atom:link href="https://strukovas.gitub.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://strukovas.gitub.io/media/icon_hua741a8d3b8e24a2e8c088429f4f7d344_30882_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
       <link>https://strukovas.gitub.io/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>A Data-Driven Machine Learning Approach for Detecting Albedo Anomalies on the Lunar Surface</title>
+      <link>https://strukovas.gitub.io/publication/lpsc_2022/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://strukovas.gitub.io/publication/lpsc_2022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Data-Driven Performance Prediction in a Geometry Game Environment</title>
