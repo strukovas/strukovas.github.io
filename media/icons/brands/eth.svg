@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="270mm"
+   height="270mm"
+   viewBox="0 0 270 270"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="drawing.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="211mm"
+     inkscape:zoom="0.67081229"
+     inkscape:cx="381.62688"
+     inkscape:cy="412.93221"
+     inkscape:window-width="1920"
+     inkscape:window-height="1106"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <polygon
+       id="polygon5"
+       points="187.687,0 181.664,27.668 199.567,27.668 206.24,0 232.636,0 215.562,76.646 188.945,76.633 195.102,47.197 177.688,47.197 170.573,76.633 143.153,76.619 155.816,19.884 132.089,19.871 119.447,76.646 91.243,76.633 103.873,19.871 42.051,19.871 39.997,29.04 78.092,29.04 74.083,47.098 35.66,47.098 33.451,56.715 73.327,56.715 68.875,76.633 0.743,76.633 17.816,0 "
+       transform="matrix(1.1409716,0,0,1.1409716,2.5418698,83.288342)" />
+  </g>
+</svg>
