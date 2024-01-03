@@ -5,12 +5,31 @@
     <link>https://strukovas.gitub.io/publication-type/2/</link>
       <atom:link href="https://strukovas.gitub.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Dec 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://strukovas.gitub.io/media/icon_hua741a8d3b8e24a2e8c088429f4f7d344_30882_512x512_fill_lanczos_center_3.png</url>
       <title>2</title>
       <link>https://strukovas.gitub.io/publication-type/2/</link>
     </image>
+    
+    <item>
+      <title>Identifying Professional Photographers Through Image Quality and Aesthetics in Flickr</title>
+      <link>https://strukovas.gitub.io/publication/qa_flickr/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://strukovas.gitub.io/publication/qa_flickr/</guid>
+      <description>&lt;p&gt;@article{strukova2023identifying,
+title = {Identifying professional photographers through image quality and aesthetics in Flickr},
+ISSN = {1468-0394},
+url = {http://dx.doi.org/10.1111/exsy.13526},
+DOI = {10.1111/exsy.13526},
+journal = {Expert Systems},
+publisher = {Wiley},
+author = {Strukova,  Sofia and Marco,  Rubén Gaspar and Mármol,  Félix Gómez and Ruipérez‐Valiente,  José A.},
+year = {2023},
+month = dec 
+}&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Adapting Knowledge Inference Algorithms to Measure Geometry Competencies through a Puzzle Game</title>
