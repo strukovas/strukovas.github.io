@@ -5,12 +5,20 @@
     <link>https://strukovas.gitub.io/publication/</link>
       <atom:link href="https://strukovas.gitub.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://strukovas.gitub.io/media/icon_hua741a8d3b8e24a2e8c088429f4f7d344_30882_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://strukovas.gitub.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Bridging the Gap: Cyber Defence Skills for the Future</title>
+      <link>https://strukovas.gitub.io/publication/educon_2024/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://strukovas.gitub.io/publication/educon_2024/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Identifying Professional Photographers Through Image Quality and Aesthetics in Flickr</title>
