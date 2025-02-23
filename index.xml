@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sofia Strukova</title>
-    <link>https://strukovas.gitub.io/</link>
-      <atom:link href="https://strukovas.gitub.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://strukovas.github.io/</link>
+      <atom:link href="https://strukovas.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Sofia Strukova</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://strukovas.gitub.io/media/icon_hua741a8d3b8e24a2e8c088429f4f7d344_30882_512x512_fill_lanczos_center_3.png</url>
+      <url>https://strukovas.github.io/media/icon_hua741a8d3b8e24a2e8c088429f4f7d344_30882_512x512_fill_lanczos_center_3.png</url>
       <title>Sofia Strukova</title>
-      <link>https://strukovas.gitub.io/</link>
+      <link>https://strukovas.github.io/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>https://strukovas.gitub.io/talk/example-talk/</link>
+      <link>https://strukovas.github.io/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://strukovas.gitub.io/talk/example-talk/</guid>
+      <guid>https://strukovas.github.io/talk/example-talk/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -34,33 +34,33 @@
     
     <item>
       <title>A framework and case studies for data-driven computer-based diagnostics of competencies and capabilities across contexts</title>
-      <link>https://strukovas.gitub.io/publication/framework_chapter/</link>
+      <link>https://strukovas.github.io/publication/framework_chapter/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://strukovas.gitub.io/publication/framework_chapter/</guid>
+      <guid>https://strukovas.github.io/publication/framework_chapter/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sequential pattern mining on Cyber Ranges for a computer-based diagnostic of cybersecurity skills</title>
-      <link>https://strukovas.gitub.io/publication/cyber_ranges_chapter/</link>
+      <link>https://strukovas.github.io/publication/cyber_ranges_chapter/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://strukovas.gitub.io/publication/cyber_ranges_chapter/</guid>
+      <guid>https://strukovas.github.io/publication/cyber_ranges_chapter/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bridging the Gap: Cyber Defence Skills for the Future</title>
-      <link>https://strukovas.gitub.io/publication/educon_2024/</link>
+      <link>https://strukovas.github.io/publication/educon_2024/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://strukovas.gitub.io/publication/educon_2024/</guid>
+      <guid>https://strukovas.github.io/publication/educon_2024/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Identifying Professional Photographers Through Image Quality and Aesthetics in Flickr</title>
-      <link>https://strukovas.gitub.io/publication/qa_flickr/</link>
+      <link>https://strukovas.github.io/publication/qa_flickr/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://strukovas.gitub.io/publication/qa_flickr/</guid>
+      <guid>https://strukovas.github.io/publication/qa_flickr/</guid>
       <description>&lt;p&gt;@article{strukova2023identifying,
 title = {Identifying professional photographers through image quality and aesthetics in Flickr},
 ISSN = {1468-0394},
@@ -77,81 +77,81 @@ month = dec
     
     <item>
       <title>Adapting Knowledge Inference Algorithms to Measure Geometry Competencies through a Puzzle Game</title>
-      <link>https://strukovas.gitub.io/publication/tkdd_2023/</link>
+      <link>https://strukovas.github.io/publication/tkdd_2023/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://strukovas.gitub.io/publication/tkdd_2023/</guid>
+      <guid>https://strukovas.github.io/publication/tkdd_2023/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Annotated Flickr dataset for identification of professional photographers</title>
-      <link>https://strukovas.gitub.io/publication/dib_2023/</link>
+      <link>https://strukovas.github.io/publication/dib_2023/</link>
       <pubDate>Tue, 01 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://strukovas.gitub.io/publication/dib_2023/</guid>
+      <guid>https://strukovas.github.io/publication/dib_2023/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Towards the Identification of Experts in Informal Learning Portals at Scale</title>
-      <link>https://strukovas.gitub.io/publication/las_2023/</link>
+      <link>https://strukovas.github.io/publication/las_2023/</link>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://strukovas.gitub.io/publication/las_2023/</guid>
+      <guid>https://strukovas.github.io/publication/las_2023/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Computational approaches to detect experts in distributed online communities: a case study on Reddit</title>
-      <link>https://strukovas.gitub.io/publication/cc_2023/</link>
+      <link>https://strukovas.github.io/publication/cc_2023/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://strukovas.gitub.io/publication/cc_2023/</guid>
+      <guid>https://strukovas.github.io/publication/cc_2023/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Survey on Data-Driven Evaluation of Competencies and Capabilities Across Multimedia Environments</title>
-      <link>https://strukovas.gitub.io/publication/ijimai_2022/</link>
+      <link>https://strukovas.github.io/publication/ijimai_2022/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://strukovas.gitub.io/publication/ijimai_2022/</guid>
+      <guid>https://strukovas.github.io/publication/ijimai_2022/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Using Online Digital Data to Infer Valuable Skills for the Modern Workforce</title>
-      <link>https://strukovas.gitub.io/publication/igi_chapter/</link>
+      <link>https://strukovas.github.io/publication/igi_chapter/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://strukovas.gitub.io/publication/igi_chapter/</guid>
+      <guid>https://strukovas.github.io/publication/igi_chapter/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Data-Driven Machine Learning Approach for Detecting Albedo Anomalies on the Lunar Surface</title>
-      <link>https://strukovas.gitub.io/publication/lpsc_2022/</link>
+      <link>https://strukovas.github.io/publication/lpsc_2022/</link>
       <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://strukovas.gitub.io/publication/lpsc_2022/</guid>
+      <guid>https://strukovas.github.io/publication/lpsc_2022/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data-Driven Performance Prediction in a Geometry Game Environment</title>
-      <link>https://strukovas.gitub.io/publication/goodit_2021/</link>
+      <link>https://strukovas.github.io/publication/goodit_2021/</link>
       <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://strukovas.gitub.io/publication/goodit_2021/</guid>
+      <guid>https://strukovas.github.io/publication/goodit_2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Exploring the Affordances of Multimodal Data to Improve Cybersecurity Training with Cyber Range Environments</title>
-      <link>https://strukovas.gitub.io/publication/jnic_2021/</link>
+      <link>https://strukovas.github.io/publication/jnic_2021/</link>
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://strukovas.gitub.io/publication/jnic_2021/</guid>
+      <guid>https://strukovas.github.io/publication/jnic_2021/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Welcome to Wowchemy, the website builder for Hugo</title>
-      <link>https://strukovas.gitub.io/post/getting-started/</link>
+      <link>https://strukovas.github.io/post/getting-started/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://strukovas.gitub.io/post/getting-started/</guid>
+      <guid>https://strukovas.github.io/post/getting-started/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
@@ -228,9 +228,9 @@ month = dec
     
     <item>
       <title></title>
-      <link>https://strukovas.gitub.io/admin/config.yml</link>
+      <link>https://strukovas.github.io/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://strukovas.gitub.io/admin/config.yml</guid>
+      <guid>https://strukovas.github.io/admin/config.yml</guid>
       <description></description>
     </item>
     

@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>6 | Sofia Strukova</title>
-    <link>https://strukovas.gitub.io/publication-type/6/</link>
-      <atom:link href="https://strukovas.gitub.io/publication-type/6/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://strukovas.github.io/publication-type/6/</link>
+      <atom:link href="https://strukovas.github.io/publication-type/6/index.xml" rel="self" type="application/rss+xml" />
     <description>6</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://strukovas.gitub.io/media/icon_hua741a8d3b8e24a2e8c088429f4f7d344_30882_512x512_fill_lanczos_center_3.png</url>
+      <url>https://strukovas.github.io/media/icon_hua741a8d3b8e24a2e8c088429f4f7d344_30882_512x512_fill_lanczos_center_3.png</url>
       <title>6</title>
-      <link>https://strukovas.gitub.io/publication-type/6/</link>
+      <link>https://strukovas.github.io/publication-type/6/</link>
     </image>
     
     <item>
       <title>A framework and case studies for data-driven computer-based diagnostics of competencies and capabilities across contexts</title>
-      <link>https://strukovas.gitub.io/publication/framework_chapter/</link>
+      <link>https://strukovas.github.io/publication/framework_chapter/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://strukovas.gitub.io/publication/framework_chapter/</guid>
+      <guid>https://strukovas.github.io/publication/framework_chapter/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sequential pattern mining on Cyber Ranges for a computer-based diagnostic of cybersecurity skills</title>
-      <link>https://strukovas.gitub.io/publication/cyber_ranges_chapter/</link>
+      <link>https://strukovas.github.io/publication/cyber_ranges_chapter/</link>
       <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://strukovas.gitub.io/publication/cyber_ranges_chapter/</guid>
+      <guid>https://strukovas.github.io/publication/cyber_ranges_chapter/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Using Online Digital Data to Infer Valuable Skills for the Modern Workforce</title>
-      <link>https://strukovas.gitub.io/publication/igi_chapter/</link>
+      <link>https://strukovas.github.io/publication/igi_chapter/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://strukovas.gitub.io/publication/igi_chapter/</guid>
+      <guid>https://strukovas.github.io/publication/igi_chapter/</guid>
       <description></description>
     </item>
     
