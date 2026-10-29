@@ -30,7 +30,7 @@
               {{- .organization | markdownify | emojify -}}
               {{- with .organization_url}}</a>{{end -}}
 
-              {{ if and .organization .date_start }}<span class="middot-divider"></span>{{ end }}
+              {{ if and .organization (or .date_start .date_label) }}<span class="middot-divider"></span>{{ end }}
 
               {{ if .date_label }}{{ .date_label }}{{ else }}{{ with .date_start }}{{ (time .) | time.Format ($page.Params.date_format | default "Jan 2006") }}{{ end }}{{ end }}
               {{ if .date_end}}

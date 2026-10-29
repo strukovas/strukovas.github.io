@@ -9,7 +9,8 @@ item:
 - title: Digital Health in Practice
   date_label: '2026'
   description: I teach on the Digital Health in Practice course.
-  organization: ''
+  organization: University of Zurich (UZH)
+  organization_url: https://www.uzh.ch/en.html
   date_start: ''
   date_end: ''
 - title: Mentor for Refugee seeking higher education in Switzerland
