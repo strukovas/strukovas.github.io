@@ -212,3 +212,11 @@ a:focus-visible, button:focus-visible {
 .research-theme:first-child p {
   max-width: 90ch;
 }
+.research-theme .research-project-label {
+  color: #80bce5;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  margin-bottom: .4rem;
+}

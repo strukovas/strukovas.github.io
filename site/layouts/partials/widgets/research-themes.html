@@ -8,6 +8,7 @@
     <div class="research-themes">
       {{ range $section.Params.themes }}
       <article class="research-theme">
+        {{ with .label }}<p class="research-project-label">{{ . }}</p>{{ end }}
         <h3>{{ .title }}</h3>
         <p>{{ .description }}</p>
       </article>
