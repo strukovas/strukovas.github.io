@@ -52,11 +52,11 @@ item:
   description: 'Reviewer for 20+ journals across the following fields:'
   review_fields:
   - field: Data science, machine learning and AI
-    journals: Discover Artificial Intelligence, EPJ Data Science, Artificial Intelligence Review, Cognitive Computation, Social Network Analysis and Mining, Mathematics, International Journal of Data Science and Analytics, Machine Learning
+    journals: Discover Artificial Intelligence, EPJ Data Science, Scientific Data, Artificial Intelligence Review, Cognitive Computation, Social Network Analysis and Mining, Mathematics, International Journal of Data Science and Analytics, Machine Learning
   - field: AI in education and learning analytics
     journals: Journal of Learning Analytics, Discover Education, Trends in Higher Education, Education Sciences, International Journal of Artificial Intelligence in Education
   - field: Behavioral and social sciences
-    journals: AI and Ethics, Behavioral Sciences, Humanities and Social Sciences Communications, Frontiers in Psychology
+    journals: 'AI and Ethics, Behavioral Sciences, Humanities and Social Sciences Communications, Frontiers in Psychology, Cyberpsychology: Journal of Psychosocial Research on Cyberspace'
   - field: Applied sciences and engineering
     journals: Scientific Reports, Computing, Sustainability, Automated Software Engineering, Applied Sciences
 - title: Conference Reviewer
