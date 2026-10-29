@@ -19,6 +19,3 @@ themes:
     with similar experiences and disease characteristics, and examine how these similarities relate to health-related
     quality of life.
 ---
-
-My current work at the University of Zurich centres on building research tools with practical impact.\
-I combine applied data analysis, statistics and machine learning to make complex data useful and connect technical methods with questions that matter for health research and people's lives.

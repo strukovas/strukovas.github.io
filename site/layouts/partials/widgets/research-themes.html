@@ -4,7 +4,7 @@
     <h1 class="mb-0">{{ $section.Title }}</h1>
   </div>
   <div class="col-12">
-    <div class="article-style research-introduction">{{ $section.Content }}</div>
+    {{ with $section.Content }}<div class="article-style research-introduction">{{ . }}</div>{{ end }}
     <div class="research-themes">
       {{ range $section.Params.themes }}
       <article class="research-theme">
