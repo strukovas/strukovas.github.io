@@ -21,7 +21,7 @@ The maintained Hugo source is in **`site/`**. GitHub Actions builds and publishe
 
 To add a publication, create a folder with `index.md` and `cite.bib`, following an existing publication. Use a unique slug and the actual publication or posting date. Use `admin` for Sofia's author entry. Set `publication_types: ['2']` for journal articles or `['3']` for preprints. Store a **bare DOI**, for example `10.9781/ijimai.2026.2211`, without `https://doi.org/`; the theme adds the URL. Keep preprints clearly labeled in `publication_short` and the page body.
 
-The homepage continues to list **all** publications. Selecting featured papers is a separate editorial change.
+The homepage shows the six selected publications in the order configured in `site/content/home/publications.md`. Edit that slug list to change the selection or order. The full publication archive remains at `/publication/` and is linked in navigation and below the featured list. Work-in-progress titles are maintained in `site/content/home/work-in-progress.md`; they are separate from published papers and preprints.
 
 ## Local preview
 

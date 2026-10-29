@@ -1,0 +1,19 @@
+{{ $section := .page }}
+<div class="row">
+<div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+  <h1 class="mb-0">{{ $section.Title }}</h1>
+</div>
+<div class="col-12 col-lg-8">
+  {{ with $section.Content }}{{ . }}{{ end }}
+  {{ range $index, $slug := $section.Params.publications }}
+    {{ with site.GetPage (printf "/publication/%s" $slug) }}
+      {{ partial "functions/render_view" (dict "page" $section "item" . "view" "citation" "index" $index) }}
+    {{ else }}
+      {{ errorf "Featured publication not found: %s" $slug }}
+    {{ end }}
+  {{ end }}
+  <div class="see-all">
+    <a href="{{ "/publication/" | relLangURL }}">All publications <i class="fas fa-angle-right" aria-hidden="true"></i></a>
+  </div>
+</div>
+</div>

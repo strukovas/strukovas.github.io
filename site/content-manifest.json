@@ -19,6 +19,7 @@
   },
   "homepage_sections": [
     "about",
+    "work-in-progress",
     "publications",
     "experience",
     "accomplishments"
@@ -150,5 +151,18 @@
       "José A. Ruipérez Valiente",
       "Félix Gómez Mármol"
     ]
-  }
+  },
+  "featured_publications": [
+    "medrxiv_2026_health_narratives",
+    "cc_2023",
+    "ijimai_2022",
+    "tkdd_2023",
+    "framework_chapter",
+    "qa_flickr"
+  ],
+  "work_in_progress": [
+    "SpHeRe: A Browser-Based System for Linked Exploratory Analysis of Health-Related Free Text",
+    "Exploring the potential of virtual twins for persons with multiple sclerosis: an empirical analysis",
+    "From patient-authored narratives to ordered life events in multiple sclerosis"
+  ]
 }

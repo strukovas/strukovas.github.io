@@ -19,14 +19,25 @@ class Page(HTMLParser):
         self.urls = []
         self.ids = set()
         self.text = []
+        self.section_urls = {}
+        self.current_section = None
 
     def handle_starttag(self, tag, attributes):
         attrs = dict(attributes)
+        if tag == 'section' and attrs.get('id'):
+            self.current_section = attrs['id']
+            self.section_urls[self.current_section] = []
         if attrs.get('id'):
             self.ids.add(attrs['id'])
         for field in ('href', 'src', 'data-filename'):
             if attrs.get(field):
                 self.urls.append(attrs[field])
+                if self.current_section:
+                    self.section_urls[self.current_section].append(attrs[field])
+
+    def handle_endtag(self, tag):
+        if tag == 'section':
+            self.current_section = None
 
     def handle_data(self, value):
         self.text.append(value)
@@ -54,6 +65,16 @@ home.feed((OUTPUT / 'index.html').read_text())
 for section in manifest['homepage_sections']:
     if section not in home.ids:
         errors.append(f'Homepage section missing: {section}')
+featured_urls = [url for url in home.section_urls.get('publications', [])
+                 if re.fullmatch(r'/publication/[^/]+/', url)]
+expected_urls = [f'/publication/{slug}/' for slug in manifest.get('featured_publications', [])]
+if expected_urls and featured_urls != expected_urls:
+    errors.append('Homepage featured selection or order changed')
+if '/publication/' not in home.section_urls.get('publications', []):
+    errors.append('Featured publications must link to the full archive')
+for title in manifest.get('work_in_progress', []):
+    if title not in ' '.join(home.text):
+        errors.append(f'Work-in-progress title missing: {title}')
 for slug, title in manifest['publications'].items():
     page = OUTPUT / 'publication' / slug / 'index.html'
     if not page.is_file() or title not in page.read_text():
