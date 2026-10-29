@@ -12,7 +12,9 @@ The maintained Hugo source is in **`site/`**. GitHub Actions builds and publishe
 | Portrait | `site/content/authors/admin/avatar.jpg` |
 | Homepage sections | `site/content/home/` |
 | Experience | `site/content/home/experience.md` |
-| News and service | `site/content/home/accomplishments.md` |
+| News | `site/content/home/accomplishments.md` |
+| Academic service | `site/content/home/academic-service.md` |
+| Teaching | `site/content/home/teaching.md` |
 | Publications | `site/content/publication/<slug>/index.md` |
 | BibTeX citation | `site/content/publication/<slug>/cite.bib` |
 | Navigation | `site/config/_default/menus.yaml` |

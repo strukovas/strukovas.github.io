@@ -22,7 +22,9 @@
     "work-in-progress",
     "publications",
     "experience",
-    "accomplishments"
+    "teaching",
+    "accomplishments",
+    "academic-service"
   ],
   "homepage_text": [
     "I have lived and worked in different countries, which has given me a global outlook and a broad perspective. Experiencing different cultures and ways of working has made me more adaptable, creative, and curious, always ready to take on new challenges and solve problems in different ways.",
@@ -44,7 +46,9 @@
     "Journal Reviewer",
     "Participant in the 17th Summer School on Technology Enhanced Learning",
     "Conference Reviewer",
-    "Co-organizer of the Machine Learning for Science 2021 Hackathon"
+    "Co-organizer of the Machine Learning for Science 2021 Hackathon",
+    "Digital Health in Practice",
+    "I teach on the Digital Health in Practice course."
   ],
   "publication_authors": {
     "medrxiv_2026_health_narratives": [
