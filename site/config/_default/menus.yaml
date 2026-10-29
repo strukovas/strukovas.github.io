@@ -1,25 +1,52 @@
 main:
 - name: Biography
-  url: '#about'
+  url: '/#about'
   weight: 10
 - name: Research
-  url: '#research'
-  weight: 12
+  identifier: research
+  weight: 20
+- name: Research themes
+  parent: research
+  url: '/#research'
+  weight: 10
 - name: Work in progress
-  url: '#work-in-progress'
-  weight: 15
+  parent: research
+  url: '/#work-in-progress'
+  weight: 20
+- name: Publications
+  identifier: publications
+  weight: 30
 - name: Featured publications
-  url: '#publications'
+  parent: publications
+  url: '/#publications'
+  weight: 10
+- name: All publications
+  parent: publications
+  url: /publication/
   weight: 20
 - name: Experience
-  url: '#experience'
-  weight: 30
-- name: Awards
-  url: '#accomplishments'
+  identifier: experience
   weight: 40
-- name: Academic service
-  url: '#academic-service'
-  weight: 45
-- name: All publications
-  url: /publication/
+- name: Recent experience
+  parent: experience
+  url: '/#experience'
+  weight: 10
+- name: All experience
+  parent: experience
+  url: /experience/
+  weight: 20
+- name: Activities
+  identifier: activities
   weight: 50
+- name: Awards and recognition
+  parent: activities
+  url: '/#accomplishments'
+  weight: 10
+- name: Academic service
+  parent: activities
+  url: '/#academic-service'
+  weight: 20
+- name: Professional development
+  parent: activities
+  url: '/#professional-development'
+  weight: 30

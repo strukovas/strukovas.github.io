@@ -1,0 +1,19 @@
+{{ define "main" }}
+<section class="home-section experience-archive">
+  <div class="container">
+    <div class="row">
+      <div class="section-heading col-12 mb-3">
+        <h1 class="mb-0">{{ .Title }}</h1>
+      </div>
+      <div class="col-12 mb-3">
+        <a href="{{ "/#experience" | relLangURL }}">Back to homepage experience</a>
+      </div>
+      {{ with (site.GetPage "/home/index.md").Resources.GetMatch "experience.md" }}
+        {{ partial "widgets/experience.html" (dict "root" $ "page" . "show_all" true) }}
+      {{ else }}
+        {{ errorf "Experience source could not be found in the homepage bundle" }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

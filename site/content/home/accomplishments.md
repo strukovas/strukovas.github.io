@@ -16,6 +16,12 @@ item:
     contributions of women who are currently pursuing a doctoral program in computer science. In addition, it seeks
     to encourage their start in a research career and create references for new generations, thus contributing to
     reducing the gender gap in the field of computing in Spain.
+- title: Competitive scholarship to pursue MSc studies in Data Science
+  organization: University of Murcia
+  date_label: '2019'
+  date_start: ''
+  date_end: ''
+  description: ''
 design:
   columns: '1'
 ---

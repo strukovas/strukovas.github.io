@@ -3,12 +3,13 @@ widget: experience
 headless: true
 weight: 40
 title: Experience
+show_count: 3
 subtitle: null
 date_format: Jan 2006
 experience:
 - title: Postdoctoral Researcher
   company: University of Zurich (EBPI)
-  company_url: https://www.ebpi.uzh.ch/en/research/epi_department/group_digital-and-mobile-health/team/strukova_sofia.html
+  company_url: ''
   company_logo: uzh
   date_start: '2025-05-01'
   date_end: ''

@@ -68,6 +68,31 @@
 .card-text li + li {
   margin-top: .65em;
 }
+.review-fields {
+  margin: .8rem 0 0;
+  font-size: 16px;
+  line-height: 1.65;
+  text-align: left;
+}
+.review-field {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2.2fr);
+  gap: 1.25rem;
+  padding: .75rem 0;
+  border-top: 1px solid rgba(127, 127, 127, .3);
+}
+.review-field dt {
+  font-weight: 600;
+}
+.review-field dd {
+  margin: 0;
+}
+@media (max-width: 767.98px) {
+  .review-field {
+    grid-template-columns: 1fr;
+    gap: .3rem;
+  }
+}
 .home-section .article-metadata, .home-section .exp-meta {
   font-size: 15px;
   line-height: 1.6;
@@ -115,6 +140,30 @@
 .publication-year {
   font-variant-numeric: tabular-nums;
 }
+.publication-filters .form-control {
+  box-sizing: border-box;
+  height: 44px;
+  padding: 10px 14px;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: left;
+  border-width: 1px;
+  border-radius: 5px;
+  appearance: none;
+  -webkit-appearance: none;
+}
+.publication-filters select.form-control {
+  padding-right: 40px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='m1 1 5 5 5-5' fill='none' stroke='%23adb5bd' stroke-width='1.5'/%3E%3C/svg%3E");
+  background-position: right 14px center;
+  background-repeat: no-repeat;
+  background-size: 12px 8px;
+}
+.publication-filters > .col-auto {
+  margin-bottom: .5rem;
+  max-width: 100%;
+}
 .publication-actions {
   display: flex;
   flex-wrap: wrap;
@@ -138,6 +187,25 @@ a:focus-visible, button:focus-visible {
   font-size: 15px;
   padding-left: .55rem;
   padding-right: .55rem;
+}
+#navbar-main .nav-menu-group {
+  position: relative;
+}
+#navbar-main button.nav-link {
+  background: transparent;
+  border: 0;
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+#navbar-main .nav-menu-group .dropdown-menu {
+  min-width: 13rem;
+  padding: .4rem 0;
+  border-radius: 6px;
+}
+#navbar-main .nav-menu-group .dropdown-item {
+  font-size: 15px;
+  padding: .55rem 1rem;
 }
 @media (max-width: 991.98px) {
   .home-section {

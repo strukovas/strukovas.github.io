@@ -19,7 +19,7 @@ doi: 10.64898/2026.09.23.26363819
 publication_types:
 - '3'
 publication: medRxiv
-publication_short: '*medRxiv* (preprint; not peer reviewed)'
+publication_short: 'In *medRxiv* (preprint)'
 abstract: Patient narratives can reveal aspects of health that standardized measures miss, yet collecting open-ended
   responses at population scale remains difficult. We evaluated whether speech-to-text (STT) could enable richer
   responses in online health surveys without the resource demands of interviews. Across four surveys involving people
@@ -41,6 +41,6 @@ links:
 tags: []
 ---
 
-Version 1. Preprint; not peer reviewed.
+Version 1. Preprint.
 
 Abstract from [medRxiv](https://www.medrxiv.org/content/10.64898/2026.09.23.26363819v1), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).

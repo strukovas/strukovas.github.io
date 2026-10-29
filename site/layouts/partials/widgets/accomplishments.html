@@ -47,6 +47,17 @@
           <div class="card-text">{{. | markdownify | emojify}}</div>
         {{end}}
 
+        {{ with .review_fields }}
+          <dl class="review-fields">
+            {{ range . }}
+            <div class="review-field">
+              <dt>{{ .field }}</dt>
+              <dd>{{ .journals }}</dd>
+            </div>
+            {{ end }}
+          </dl>
+        {{ end }}
+
         {{ with .certificate_url }}
           <a class="card-link" href="{{.}}" target="_blank" rel="noopener">
             {{ i18n "see_certificate" | default "See certificate" }}

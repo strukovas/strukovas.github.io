@@ -6,15 +6,15 @@ title: Academic service
 subtitle: null
 date_format: Jan 2006
 item:
-- title: Digital Health in Practice
+- title: Teaching - Digital Health in Practice
   date_label: '2026'
   description: I teach students how to work with and combine different types of health data, including structured self-reports, speech and free-text narratives. I present SpHeRe and demonstrate how to explore health narratives through keyword, sentiment and emotion analysis, and interpret the results alongside other health measurements.
   organization: University of Zurich (UZH)
   organization_url: https://www.uzh.ch/en.html
   date_start: ''
   date_end: ''
-- title: Student co-supervision
-  description: 'Co-supervised five students:
+- title: Thesis co-supervision
+  description: 'Co-supervised five student theses:
 
 
     * 2026: Master of Medicine
@@ -26,7 +26,7 @@ item:
     * 2022: BSc in Mathematics and Computer Science
 
     * 2021: MSc in Big Data'
-  organization: ''
+  organization: University of Zurich & University of Murcia
   date_start: ''
   date_end: ''
 - title: Mentor for Refugee seeking higher education in Switzerland
@@ -49,13 +49,16 @@ item:
   organization_url: ''
   date_start: ''
   date_end: ''
-  description: Served as a reviewer for several international peer reviewed journals, including International Journal
-    of Data Science and Analytics, Journal of Learning Analytics, Sustainability, Scientific Reports, Behavioral
-    Sciences, Artificial Intelligence Review, AI and Ethics, Discover Artificial Intelligence, Machine Learning,
-    Humanities and Social Sciences Communications, Applied Sciences, Trends in Higher Education, Automated Software
-    Engineering, EPJ Data Science, Frontiers in Psychology, Education Sciences, International Journal of Artificial
-    Intelligence in Education, Computing, Social Network Analysis and Mining, Discover Education, and Cognitive
-    Computation.
+  description: 'Reviewer for 20+ journals across the following fields:'
+  review_fields:
+  - field: Data science, machine learning and AI
+    journals: Discover Artificial Intelligence, EPJ Data Science, Artificial Intelligence Review, Cognitive Computation, Social Network Analysis and Mining, Mathematics, International Journal of Data Science and Analytics, Machine Learning
+  - field: AI in education and learning analytics
+    journals: Journal of Learning Analytics, Discover Education, Trends in Higher Education, Education Sciences, International Journal of Artificial Intelligence in Education
+  - field: Behavioral and social sciences
+    journals: AI and Ethics, Behavioral Sciences, Humanities and Social Sciences Communications, Frontiers in Psychology
+  - field: Applied sciences and engineering
+    journals: Scientific Reports, Computing, Sustainability, Automated Software Engineering, Applied Sciences
 - title: Conference Reviewer
   url: ''
   organization: ''
