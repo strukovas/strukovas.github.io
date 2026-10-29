@@ -172,7 +172,7 @@ a:focus-visible, button:focus-visible {
 }
 .research-themes {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
 }
 .research-theme {
@@ -181,7 +181,7 @@ a:focus-visible, button:focus-visible {
   border-radius: 8px;
 }
 .research-theme h3 {
-  min-height: 2.8em;
+  min-height: 1.4em;
   margin: 0 0 .65rem;
   font-size: 20px;
   line-height: 1.4;
@@ -203,4 +203,12 @@ a:focus-visible, button:focus-visible {
   .research-theme h3 {
     min-height: 0;
   }
+}
+
+.research-theme:first-child {
+  grid-column: 1 / -1;
+  border-left: 3px solid #80bce5;
+}
+.research-theme:first-child p {
+  max-width: 90ch;
 }

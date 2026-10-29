@@ -4,12 +4,12 @@ headless: true
 weight: 22
 title: Research
 themes:
-  - title: Applied data analysis
-    description: I use statistics and machine learning to explore complex datasets, identify meaningful patterns and answer questions grounded in people's experiences.
-  - title: Language technologies for health
-    description: At UZH, I analyse patient narratives and multilingual interview transcripts to understand symptoms, experiences and disease journeys. My work includes text classification, sentiment and emotion analysis, and topic modelling.
-  - title: Research with practical impact
-    description: I develop reproducible analysis pipelines and exploratory tools that help researchers make sense of their data. My aim is to connect technical methods with questions that matter for health research and people's lives.
+  - title: Research tools with practical impact
+    description: I develop reproducible analysis pipelines and exploratory tools, including SpHeRe, that help researchers make sense of complex data. By combining statistics, machine learning and clear visualisation, I connect technical methods with questions that matter for health research and people's lives.
+  - title: Patient narratives and future events
+    description: I turn patient-authored narratives into structured, ordered life events and develop research models to predict future events in patients' disease journeys. This work combines language technologies with sequence modelling to explore how experiences unfold over time.
+  - title: Patient similarity and virtual twins
+    description: I investigate how patient narratives and structured registry data can be combined to identify people with similar experiences and disease characteristics. This virtual-twin approach explores patient similarity and its relationship to health-related quality of life.
 ---
 
 My current work at the University of Zurich brings together data analysis, language technologies and health research, with a focus on making complex data useful.
