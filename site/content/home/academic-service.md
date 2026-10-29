@@ -13,6 +13,22 @@ item:
   organization_url: https://www.uzh.ch/en.html
   date_start: ''
   date_end: ''
+- title: Student co-supervision
+  description: 'Co-supervised five students:
+
+
+    * 2026 — Master of Medicine
+
+    * 2024 — BSc in Mathematics and Computer Science
+
+    * 2023 — BSc in Computer Science
+
+    * 2022 — BSc in Mathematics and Computer Science
+
+    * 2021 — MSc in Big Data'
+  organization: ''
+  date_start: ''
+  date_end: ''
 - title: Mentor for Refugee seeking higher education in Switzerland
   url: ''
   organization: SEET
