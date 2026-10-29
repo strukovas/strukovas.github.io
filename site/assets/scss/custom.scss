@@ -1,23 +1,153 @@
-.card-text {
-	padding-bottom: 0em !important;
+/* Shared reading rhythm for the homepage, publication archive and detail pages. */
+.home-section {
+  padding: 4rem 0 !important;
+  font-size: 18px;
+  line-height: 1.7;
+  scroll-margin-top: 5rem;
 }
-
-.card-body {
-	padding-bottom: 0.25em !important;
+.home-section > .container {
+  max-width: 1140px;
 }
-
-/* Add right padding on desktop to balance the visual gap with the avatar column */
-@media (min-width: 992px) {
-	.article-style {
-		padding-right: 60px;
-	}
+.article-style, .pub-abstract, .pub-list-item, .card-text, .section-subheading {
+  text-align: left;
 }
-
-/* Justify text */
-.article-style p,
-.biography p,
-.card-text,
-.section-subheading,
-.pub-list-item {
-	text-align: justify;
+.article-style {
+  padding-right: 0;
+  line-height: 1.75;
+}
+.article-style p, .pub-abstract {
+  max-width: 68ch;
+  margin-bottom: 1.15em;
+}
+.section-heading {
+  text-align: left !important;
+  align-items: flex-start !important;
+}
+.section-heading h1 {
+  font-size: 34px;
+  line-height: 1.2;
+  letter-spacing: -.025em;
+  font-weight: 600;
+}
+.home-section .card {
+  border: 1px solid rgba(127, 127, 127, .18);
+  border-radius: 8px;
+  box-shadow: none;
+}
+.home-section .card-body {
+  padding: 1.3rem 1.4rem;
+}
+.home-section .card-title {
+  font-size: 19px;
+  line-height: 1.45;
+  font-weight: 600;
+  color: inherit !important;
+}
+.home-section .card-text {
+  font-size: 18px;
+  line-height: 1.7;
+  padding: 0;
+  margin-top: .8rem;
+}
+.home-section .card-text p:last-child,
+.home-section .card-text ul:last-child {
+  margin-bottom: 0;
+}
+.card-text ul {
+  padding-left: 1.2em;
+}
+.card-text li + li {
+  margin-top: .65em;
+}
+.home-section .article-metadata, .home-section .exp-meta {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-top: .3rem;
+}
+#work-in-progress h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin: 0;
+  padding: 1.15rem 0;
+  border-bottom: 1px solid rgba(127, 127, 127, .22);
+}
+#work-in-progress h3:first-child {
+  padding-top: 0;
+}
+.pub-list-item.view-citation {
+  line-height: 1.6;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(127, 127, 127, .22);
+}
+.publication-title {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.45;
+  margin-bottom: .5rem;
+}
+.pub-list-item .li-cite-author {
+  color: inherit;
+  opacity: .82;
+  display: block;
+  font-size: 15px;
+  line-height: 1.65;
+  margin: 0 0 .4rem;
+}
+.publication-venue {
+  font-size: 16px;
+  line-height: 1.6;
+}
+.publication-year {
+  font-variant-numeric: tabular-nums;
+}
+.publication-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+  margin-top: .65rem;
+}
+.publication-actions .btn {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  margin: 0;
+  padding: .2rem .55rem;
+  font-size: 13px;
+  border-color: rgba(127, 127, 127, .45);
+}
+a:focus-visible, button:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 4px;
+}
+#navbar-main .navbar-nav .nav-link {
+  font-size: 15px;
+  padding-left: .55rem;
+  padding-right: .55rem;
+}
+@media (max-width: 991.98px) {
+  .home-section {
+    padding: 2.5rem 0 !important;
+    font-size: 17px;
+  }
+  .home-section .section-heading {
+    margin-bottom: 1.4rem !important;
+  }
+  .section-heading h1 {
+    font-size: 28px;
+  }
+  .home-section .card-body {
+    padding: 1rem;
+  }
+  .home-section .card-text {
+    font-size: 17px;
+  }
+  .publication-title, #work-in-progress h3 {
+    font-size: 19px;
+  }
+  .publication-actions .btn {
+    min-height: 36px;
+  }
 }

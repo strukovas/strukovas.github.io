@@ -12,9 +12,11 @@ experience:
   company_logo: uzh
   date_start: '2025-05-01'
   date_end: ''
-  description: |-
-    * Fine-tuned six transformer models to classify Multiple Sclerosis patient narratives into 27 categories, leveraging outputs for LSTM-based disease journey prediction.
-    * Developed a multilingual text analysis pipeline for raw patient interview transcripts integrating sentiment analysis, emotion detection, topic modeling, and automated PII anonymization.
+  description: '* Fine-tuned six transformer models to classify Multiple Sclerosis patient narratives into 27 categories,
+    leveraging outputs for LSTM-based disease journey prediction.
+
+    * Developed a multilingual text analysis pipeline for raw patient interview transcripts integrating sentiment
+    analysis, emotion detection, topic modeling, and automated PII anonymization.'
 - title: Doctoral Student -> Senior Researcher
   company: University of Murcia
   company_url: ''
@@ -96,11 +98,5 @@ experience:
 
     * Achieved accuracy of up to 80% in link prediction relevant datasets such as IMDB.'
 design:
-  columns: '1'
-  spacing:
-    padding:
-    - 3%
-    - 5%
-    - 0px
-    - 5%
+  columns: '2'
 ---
