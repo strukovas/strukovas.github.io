@@ -16,8 +16,8 @@ themes:
     modelling to explore how experiences unfold over time.
 - title: Patient similarity and virtual twins
   description: I investigate how patient narratives and structured registry data can be combined to identify people
-    with similar experiences and disease characteristics. This virtual-twin approach explores patient similarity
-    and its relationship to health-related quality of life.
+    with similar experiences and disease characteristics, and examine how these similarities relate to health-related
+    quality of life.
 ---
 
 My current work at the University of Zurich centres on building research tools with practical impact.\
