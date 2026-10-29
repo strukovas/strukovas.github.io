@@ -39,7 +39,7 @@ experience:
 - title: Data Science Intern
   company: women++
   company_url: ''
-  company_logo: ''
+  company_logo: women-plus-plus
   date_start: '2022-10-01'
   date_end: '2022-11-01'
   description: '* Together with my team, I worked on reconstructing the OpenEdu.ch educational platform for Switzerland.
