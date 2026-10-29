@@ -9,6 +9,8 @@ design:
 
 ### GROW Empowerment Program
 
+2026–2027
+
 I participate in the [GROW Empowerment Program](https://www.grc.uzh.ch/en/engagement/actionplan/grow_program.html) at the University of Zurich's Graduate Campus, which combines individual mentoring, workshops and peer exchange to support postdoctoral researchers' academic careers.
 
 ### Courses attended
