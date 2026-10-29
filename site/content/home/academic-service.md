@@ -40,7 +40,8 @@ item:
   url: ''
   organization: EATEL
   organization_url: https://ea-tel.eu/ectel2024
-  date_start: '2024-09-01'
+  date_label: '2024-2026'
+  date_start: ''
   date_end: ''
   description: ''
 - title: Journal Reviewer
