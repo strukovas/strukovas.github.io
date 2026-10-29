@@ -30,17 +30,17 @@ item:
   organization: ''
   date_start: ''
   date_end: ''
-  description: '- Entrepreneurial Skills: From research to impact: An introductory workshop for the natural sciences
+  description: '- Appointment Training
 
-    - Negotiating successfully to a win-win result
+    - Entrepreneurial Skills: From research to impact: An introductory workshop for the natural sciences
+
+    - Grant Writing
 
     - Improvisation skills for researchers
 
     - Life Balance
 
-    - Appointment Training
-
-    - Grant Writing'
+    - Negotiating successfully to a win-win result'
 - title: Webinar attended
   organization: ''
   date_start: ''
