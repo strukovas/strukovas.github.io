@@ -8,7 +8,7 @@ date_format: Jan 2006
 item:
 - title: Digital Health in Practice
   date_label: '2026'
-  description: I teach on the Digital Health in Practice course.
+  description: I teach students how to work with and combine different types of health data, including structured self-reports, speech and free-text narratives. I present SpHeRe and demonstrate how to explore health narratives through keyword, sentiment and emotion analysis, and interpret the results alongside other health measurements.
   organization: University of Zurich (UZH)
   organization_url: https://www.uzh.ch/en.html
   date_start: ''
