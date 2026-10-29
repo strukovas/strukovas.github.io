@@ -1,0 +1,59 @@
+name: Build and publish Hugo site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'site/**'
+      - 'scripts/**'
+      - '.github/workflows/publish.yml'
+  pull_request:
+    paths:
+      - 'site/**'
+      - 'scripts/**'
+      - '.github/workflows/publish.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.event_name }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v6
+      - name: Install pinned Hugo Extended
+        run: |
+          curl --fail --location --retry 3 https://github.com/gohugoio/hugo/releases/download/v0.97.3/hugo_extended_0.97.3_Linux-64bit.tar.gz -o "$RUNNER_TEMP/hugo.tar.gz"
+          echo "104ffb5c3130cd3d25e331566d9b86e153cbbdad761defe5defa027bb23543b6  $RUNNER_TEMP/hugo.tar.gz" | sha256sum --check
+          mkdir -p "$RUNNER_TEMP/hugo-bin"
+          tar -xzf "$RUNNER_TEMP/hugo.tar.gz" -C "$RUNNER_TEMP/hugo-bin" hugo
+          echo "$RUNNER_TEMP/hugo-bin" >> "$GITHUB_PATH"
+      - name: Build from Markdown and vendored theme
+        run: hugo --source site --destination ../build --minify --environment production
+      - name: Validate generated site
+        run: python3 scripts/check-site.py build
+      - name: Upload Pages artifact
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: build
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,73 @@
+appearance:
+  theme_day: minimal
+  theme_night: minimal
+  font: minimal
+  font_size: L
+marketing:
+  seo:
+    site_type: Person
+    local_business_type: ''
+    org_name: ''
+    description: Personal webpage of Sofia Strukova
+  analytics:
+    google_analytics: G-8B7WJKQZPX
+    baidu_tongji: ''
+  verification:
+    google: ''
+    baidu: ''
+header:
+  navbar:
+    enable: true
+    align: l
+    show_logo: true
+    show_language: false
+    show_day_night: false
+    show_search: false
+    highlight_active_link: true
+locale:
+  date_format: Jan 2, 2006
+  time_format: 3:04 PM
+  address_format: en-us
+features:
+  syntax_highlighter:
+    enable: true
+    extra_languages:
+    - r
+    - latex
+  math:
+    enable: false
+  privacy_pack:
+    enable: false
+  repository:
+    url: https://github.com/strukovas/strukovas.github.io
+    content_dir: site/content
+    branch: main
+  avatar:
+    gravatar: false
+    shape: circle
+  comment:
+    provider: ''
+    disqus:
+      shortname: ''
+      show_count: true
+    commento:
+      url: ''
+  search:
+    provider: wowchemy
+    algolia:
+      app_id: ''
+      api_key: ''
+      index_name: ''
+      show_logo: false
+  map:
+    provider: ''
+    api_key: ''
+    zoom: 15
+extensions:
+  cms:
+    branch: main
+    local_backend: false
+  academicons:
+    enable: true
+security:
+  allow_frame: true

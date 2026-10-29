@@ -1,0 +1,70 @@
+---
+widget: accomplishments
+headless: true
+weight: 50
+title: News
+subtitle: null
+date_format: Jan 2006
+item:
+- title: Award for the contribution of women pursuing doctoral studies in the area of computer science in Spain
+  url: https://www.scie.es/entrega-del-premio-scie-zonta-sngular-2023/
+  organization: SCIE-ZONTA-SNGULAR
+  organization_url: ''
+  date_start: '2023-09-01'
+  date_end: ''
+  description: Awardee of the Accesit in the SCIE-ZONTA-SNGULAR awards. Its main objective is to recognize the outstanding
+    contributions of women who are currently pursuing a doctoral program in computer science. In addition, it seeks
+    to encourage their start in a research career and create references for new generations, thus contributing to
+    reducing the gender gap in the field of computing in Spain.
+- title: Mentor for Refugee seeking higher education in Switzerland
+  url: ''
+  organization: SEET
+  organization_url: https://seet.ch/en/
+  date_start: '2024-05-01'
+  date_end: '2025-05-01'
+  description: ''
+- title: Program committee of the European Conference on Technology Enhanced Learning
+  url: ''
+  organization: EATEL
+  organization_url: https://ea-tel.eu/ectel2024
+  date_start: '2024-09-01'
+  date_end: ''
+  description: ''
+- title: Journal Reviewer
+  url: ''
+  organization: ''
+  organization_url: ''
+  date_start: ''
+  date_end: ''
+  description: Served as a reviewer for several international peer reviewed journals, including International Journal
+    of Data Science and Analytics, Journal of Learning Analytics, Sustainability, Scientific Reports, Behavioral
+    Sciences, Artificial Intelligence Review, AI and Ethics, Discover Artificial Intelligence, Machine Learning,
+    Humanities and Social Sciences Communications, Applied Sciences, Trends in Higher Education, Automated Software
+    Engineering, EPJ Data Science, Frontiers in Psychology, Education Sciences, International Journal of Artificial
+    Intelligence in Education, Computing, Social Network Analysis and Mining, Discover Education, and Cognitive
+    Computation.
+- title: Participant in the 17th Summer School on Technology Enhanced Learning
+  url: ''
+  organization: EATEL
+  organization_url: https://ea-tel.eu/jtelss23
+  date_start: '2023-06-01'
+  date_end: ''
+  description: ''
+- title: Conference Reviewer
+  url: ''
+  organization: ''
+  organization_url: ''
+  date_start: ''
+  date_end: ''
+  description: Reviewed manuscripts for Learning Analytics and Knowledge Conference, International Conference on
+    Artificial Intelligence in Education, and IEEE Global Engineering Education Conference.
+- title: Co-organizer of the Machine Learning for Science 2021 Hackathon
+  url: https://indico.cern.ch/event/1085878/
+  organization: ML4SCI
+  organization_url: https://ml4sci.org/
+  date_start: '2021-11-01'
+  date_end: '2022-01-01'
+  description: ''
+design:
+  columns: '2'
+---
