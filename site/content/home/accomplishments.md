@@ -2,7 +2,7 @@
 widget: accomplishments
 headless: true
 weight: 50
-title: News
+title: Awards and recognition
 subtitle: null
 date_format: Jan 2006
 item:
@@ -16,13 +16,6 @@ item:
     contributions of women who are currently pursuing a doctoral program in computer science. In addition, it seeks
     to encourage their start in a research career and create references for new generations, thus contributing to
     reducing the gender gap in the field of computing in Spain.
-- title: Participant in the 17th Summer School on Technology Enhanced Learning
-  url: ''
-  organization: EATEL
-  organization_url: https://ea-tel.eu/jtelss23
-  date_start: '2023-06-01'
-  date_end: ''
-  description: ''
 design:
   columns: '1'
 ---
