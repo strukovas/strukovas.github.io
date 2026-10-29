@@ -220,3 +220,17 @@ a:focus-visible, button:focus-visible {
   text-transform: uppercase;
   margin-bottom: .4rem;
 }
+
+/* Align both edges of prose without stretching headings or short metadata. */
+@media (min-width: 768px) {
+  .article-style p,
+  .pub-abstract,
+  .card-text,
+  .card-text p,
+  .card-text li,
+  .research-theme p:not(.research-project-label) {
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+  }
+}
