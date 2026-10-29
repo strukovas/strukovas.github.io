@@ -49,7 +49,7 @@
                 {{- with .company_url}}<a href="{{.}}" target="_blank" rel="noopener">{{end}}{{.company | markdownify | emojify}}{{with .company_url}}</a>{{end -}}
               </div>
               <div class="text-muted exp-meta">
-                {{ (time .date_start) | time.Format ($page.Params.date_format | default "January 2006") }} –
+                {{ (time .date_start) | time.Format ($page.Params.date_format | default "January 2006") }} to
                 {{ if .date_end}}
                   {{ (time .date_end) | time.Format ($page.Params.date_format | default "January 2006") }}
                 {{else}}

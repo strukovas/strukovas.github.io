@@ -16,7 +16,7 @@ abstract: The rapid technological evolution of the last years has motivated stud
   and higher-order thinking skills. Our main goal is to adapt, evaluate and compare Bayesian Knowledge Tracing (BKT),
   Performance Factor Analysis (PFA), Elo and Deep Knowledge Tracing (DKT) algorithms applied to the data of a geometry
   game named Shadowspect, in order to predict students’ performance by means of several classifier metrics. We analysed
-  two algorithmic configurations, with and without prioritisation of Knowledge Components (KCs) – the skills needed
+  two algorithmic configurations, with and without prioritisation of Knowledge Components (KCs), the skills needed
   to complete a puzzle successfully, and we found Elo to be the algorithm with the best prediction power with the
   ability to model the real knowledge of students. However, the best results are achieved without KCs because it
   is a challenging task to differentiate between KCs effectively in game environments. Our results prove that the

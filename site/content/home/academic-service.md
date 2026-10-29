@@ -17,15 +17,15 @@ item:
   description: 'Co-supervised five students:
 
 
-    * 2026 — Master of Medicine
+    * 2026: Master of Medicine
 
-    * 2024 — BSc in Mathematics and Computer Science
+    * 2024: BSc in Mathematics and Computer Science
 
-    * 2023 — BSc in Computer Science
+    * 2023: BSc in Computer Science
 
-    * 2022 — BSc in Mathematics and Computer Science
+    * 2022: BSc in Mathematics and Computer Science
 
-    * 2021 — MSc in Big Data'
+    * 2021: MSc in Big Data'
   organization: ''
   date_start: ''
   date_end: ''

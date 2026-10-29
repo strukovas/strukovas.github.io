@@ -34,7 +34,7 @@
 
               {{ if .date_label }}{{ .date_label }}{{ else }}{{ with .date_start }}{{ (time .) | time.Format ($page.Params.date_format | default "Jan 2006") }}{{ end }}{{ end }}
               {{ if .date_end}}
-              – {{ (time .date_end) | time.Format ($page.Params.date_format | default "Jan 2006") }}
+              to {{ (time .date_end) | time.Format ($page.Params.date_format | default "Jan 2006") }}
               {{end}}
             </div>
 

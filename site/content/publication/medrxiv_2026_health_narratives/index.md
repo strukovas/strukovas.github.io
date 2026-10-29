@@ -27,7 +27,7 @@ abstract: Patient narratives can reveal aspects of health that standardized meas
   answer open-ended questions by typing or using STT. We compared response length, lexical diversity, stop-word
   proportion, and total unique content words, alongside STT uptake and participant feedback. Quantitative comparisons
   were made using a mixed-effects model including modality (STT vs typed) as fixed effect and a random intercept
-  per participant. STT uptake varied markedly across populations (0.7–80.0%). Spoken responses were estimated to
+  per participant. STT uptake varied markedly across populations (0.7 to 80.0%). Spoken responses were estimated to
   contain more characters than typed responses in two studies, by 245.0 and 891.8 characters on average (both p<0.001),
   and contained more unique content words, despite lower lexical diversity and higher stop-word proportions. Participants
   generally valued STT for its convenience and spontaneity, but uptake was constrained by context, privacy, interface
