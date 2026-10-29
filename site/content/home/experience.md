@@ -98,5 +98,5 @@ experience:
 
     * Achieved accuracy of up to 80% in link prediction relevant datasets such as IMDB.'
 design:
-  columns: '2'
+  columns: '1'
 ---

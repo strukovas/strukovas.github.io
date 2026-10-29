@@ -24,5 +24,5 @@ item:
   date_end: ''
   description: ''
 design:
-  columns: '2'
+  columns: '1'
 ---

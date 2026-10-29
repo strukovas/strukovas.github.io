@@ -4,7 +4,7 @@ headless: true
 weight: 25
 title: Work in progress
 design:
-  columns: '2'
+  columns: '1'
 ---
 
 ### SpHeRe: A Browser-Based System for Linked Exploratory Analysis of Health-Related Free Text

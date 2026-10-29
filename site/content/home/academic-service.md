@@ -56,5 +56,5 @@ item:
   date_end: '2022-01-01'
   description: ''
 design:
-  columns: '2'
+  columns: '1'
 ---

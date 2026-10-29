@@ -11,5 +11,5 @@ publications:
   - framework_chapter
   - qa_flickr
 design:
-  columns: '2'
+  columns: '1'
 ---
