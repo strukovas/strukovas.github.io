@@ -9,6 +9,12 @@
   width: 94%;
   max-width: 1140px;
 }
+.home-section:last-of-type {
+  padding-bottom: 1.25rem !important;
+}
+.page-footer .site-footer {
+  margin-top: 0;
+}
 .home-section .section-heading {
   margin-bottom: 1.2rem !important;
   padding-bottom: .65rem;
