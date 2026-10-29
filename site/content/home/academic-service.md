@@ -6,6 +6,11 @@ title: Academic service
 subtitle: null
 date_format: Jan 2006
 item:
+- title: Digital Health in Practice
+  description: I teach on the Digital Health in Practice course.
+  organization: ''
+  date_start: ''
+  date_end: ''
 - title: Mentor for Refugee seeking higher education in Switzerland
   url: ''
   organization: SEET

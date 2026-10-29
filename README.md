@@ -14,7 +14,7 @@ The maintained Hugo source is in **`site/`**. GitHub Actions builds and publishe
 | Experience | `site/content/home/experience.md` |
 | News | `site/content/home/accomplishments.md` |
 | Academic service | `site/content/home/academic-service.md` |
-| Teaching | `site/content/home/teaching.md` |
+| Teaching (within Academic service) | `site/content/home/academic-service.md` |
 | Publications | `site/content/publication/<slug>/index.md` |
 | BibTeX citation | `site/content/publication/<slug>/cite.bib` |
 | Navigation | `site/config/_default/menus.yaml` |
