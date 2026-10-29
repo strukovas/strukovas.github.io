@@ -11,6 +11,7 @@ The maintained Hugo source is in **`site/`**. GitHub Actions builds and publishe
 | Biography, role, affiliations, education, links | `site/content/authors/admin/_index.md` |
 | Portrait | `site/content/authors/admin/avatar.jpg` |
 | Homepage sections | `site/content/home/` |
+| Current research themes | `site/content/home/research.md` |
 | Experience | `site/content/home/experience.md` |
 | News | `site/content/home/accomplishments.md` |
 | Academic service | `site/content/home/academic-service.md` |

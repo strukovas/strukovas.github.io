@@ -2,6 +2,9 @@ main:
 - name: Biography
   url: '#about'
   weight: 10
+- name: Research
+  url: '#research'
+  weight: 12
 - name: Work in progress
   url: '#work-in-progress'
   weight: 15

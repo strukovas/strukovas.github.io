@@ -1,0 +1,17 @@
+{{ $section := .page }}
+<div class="row">
+  <div class="section-heading col-12 mb-3">
+    <h1 class="mb-0">{{ $section.Title }}</h1>
+  </div>
+  <div class="col-12">
+    <div class="article-style research-introduction">{{ $section.Content }}</div>
+    <div class="research-themes">
+      {{ range $section.Params.themes }}
+      <article class="research-theme">
+        <h3>{{ .title }}</h3>
+        <p>{{ .description }}</p>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</div>

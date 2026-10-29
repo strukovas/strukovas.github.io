@@ -166,3 +166,41 @@ a:focus-visible, button:focus-visible {
     min-height: 36px;
   }
 }
+
+.research-introduction p {
+  max-width: 80ch;
+}
+.research-themes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+.research-theme {
+  padding: 1.1rem;
+  border: 1px solid rgba(127, 127, 127, .25);
+  border-radius: 8px;
+}
+.research-theme h3 {
+  min-height: 2.8em;
+  margin: 0 0 .65rem;
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: 600;
+}
+.research-theme p {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.65;
+}
+@media (max-width: 767.98px) {
+  .research-themes {
+    grid-template-columns: 1fr;
+    gap: .65rem;
+  }
+  .research-theme {
+    padding: 1rem;
+  }
+  .research-theme h3 {
+    min-height: 0;
+  }
+}
