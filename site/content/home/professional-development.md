@@ -40,17 +40,14 @@ item:
 
     - Life Balance
 
-    - Negotiating successfully to a win-win result'
+    - Negotiating successfully to a win-win result
+
+    - Speech, voice, and confidence workshop'
 - title: Webinar attended
   organization: ''
   date_start: ''
   date_end: ''
   description: '- How to do Research and Get Published: Publishing as a Clinician'
-- title: Workshops attended
-  organization: ''
-  date_start: ''
-  date_end: ''
-  description: '- Speech, voice, and confidence workshop'
 design:
   columns: '1'
 ---
