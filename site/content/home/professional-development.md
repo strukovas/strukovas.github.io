@@ -46,6 +46,11 @@ item:
   date_start: ''
   date_end: ''
   description: '- How to do Research and Get Published: Publishing as a Clinician'
+- title: Workshops attended
+  organization: ''
+  date_start: ''
+  date_end: ''
+  description: '- Speech, voice, and confidence workshop'
 design:
   columns: '1'
 ---
