@@ -34,6 +34,8 @@ item:
 
     - Entrepreneurial Skills: From research to impact: An introductory workshop for the natural sciences
 
+    - Exploring AI for science communication
+
     - Grant Writing
 
     - Improvisation skills for researchers
