@@ -5,6 +5,7 @@ from pathlib import Path
 import json
 import re
 import sys
+import xml.etree.ElementTree as ET
 from urllib.parse import unquote, urlsplit
 
 REPO = Path(__file__).resolve().parents[1]
@@ -98,6 +99,15 @@ for slug, authors in manifest.get('publication_authors', {}).items():
     for author in authors:
         if author not in ' '.join(page.text):
             errors.append(f'Author name missing from detail page: {slug}: {author}')
+sitemap = ET.parse(OUTPUT / 'sitemap.xml')
+locations = [element.text or '' for element in sitemap.findall(
+    './{http://www.sitemaps.org/schemas/sitemap/0.9}url/{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
+if not locations or any(not url.startswith('https://strukovas.github.io/') for url in locations):
+    errors.append('Sitemap contains empty or invalid page addresses')
+if len(locations) != len(set(locations)):
+    errors.append('Sitemap contains duplicate page addresses')
+if 'https://strukovas.github.io/the-next-chapter/' not in locations:
+    errors.append('Sitemap must include The Next Chapter game')
 if errors:
     raise SystemExit('\n'.join(errors))
 print(f'Validated {len(manifest["publications"])} publications, citations, homepage content, DOI links and local resources.')
