@@ -11,6 +11,7 @@
         {{ with .label }}<p class="research-project-label">{{ . }}</p>{{ end }}
         <h3>{{ .title }}</h3>
         <p>{{ .description | markdownify }}</p>
+        {{ with .learn_more }}<p>{{ . | markdownify }}</p>{{ end }}
       </article>
       {{ end }}
     </div>
