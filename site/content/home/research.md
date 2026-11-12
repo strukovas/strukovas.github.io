@@ -14,6 +14,8 @@ themes:
   description: I turn patient-authored narratives into structured, ordered life events and develop research models
     to predict future events in patients' disease journeys. This work combines language technologies with sequence
     modelling to explore how experiences unfold over time.
+    Explore this research through [The Next Chapter](https://strukovas.github.io/the-next-chapter/), an interactive
+    game about patient stories and predicting what comes next.
 - title: Patient similarity and virtual twins
   description: I investigate how patient narratives and structured registry data can be combined to identify people
     with similar experiences and disease characteristics, and examine how these similarities relate to health-related
